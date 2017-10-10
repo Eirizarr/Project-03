@@ -1,0 +1,76 @@
+/* Base Styles
+1.element selectors
+2.concerned with color and typhography
+3.basic element presentation
+*/
+
+html {
+
+  font-size: 1.125em;
+}
+
+body{
+  padding-top: 44px;
+  padding-right: 22px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+padding-bottom: 1.222em;
+}
+
+ol,ul{
+color: red;
+padding-bottom: 0.611em;
+}
+
+ol{
+  list-style-type: decimal;
+}
+ul{
+
+}
+
+li{
+   margun-left:
+}
+
+li, ol{
+  list-style-position: lower-alpha;
+}
+
+li li:last-child{
+  padding-bottom: 0;
+}
+
+li li ol{
+  list-style-type: lower-roman;
+}
+
+img,
+video,
+audio{
+  display: block;
+  max-width: 100px;
+}
+
+/* Layout Styles
+
+1.IDs: but also classes
+2.concerned with layout and spatial relationships*/
+
+/* Modular styles*/
+/* Repeating style patterns
+1. Classes and relationships selectors
+2.concerned with adjustments to base styles, spacing, color, etc.
+
+*/
+li{
+  padding-bottom: 0.611em;
+}
+
+/*State Styles */
+/*
+
+1.Driven by media queries
+2.Influenced by javascript
+*/
