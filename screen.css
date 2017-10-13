@@ -83,6 +83,10 @@ audio
   background-color: orange;
 }
 
+figcaption{
+  text-align: center;
+}
+
 /* Modular Styles */
 /*
   Repeating style patterns.
