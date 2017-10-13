@@ -15,6 +15,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   2. concerned with color and typography
   3. basic element presenation
 */
+html{
+  font-size: 1.125em;
+  line-height: 2em;
+  background-color: silver;
+}
+
 
 
 
