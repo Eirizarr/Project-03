@@ -20,12 +20,17 @@ html{
   line-height: 2em;
   background-color: silver;
 }
+
 head{
   font-size: 3.552em;
   font-weight: bold;
   margin-top: auto;
 }
 
+body{
+  font-size: 1.125em;
+  line-height: 2em;
+}
 
 
 /* Layout Styles */
