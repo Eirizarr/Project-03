@@ -20,7 +20,11 @@ html{
   line-height: 2em;
   background-color: silver;
 }
-
+head{
+  font-size: 3.552em;
+  font-weight: bold;
+  margin-top: auto;
+}
 
 
 
