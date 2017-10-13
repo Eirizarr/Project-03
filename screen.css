@@ -45,6 +45,16 @@ p{
 
 }
 
+/*Resposive Media*/
+img,
+video,
+audio
+{
+  display: block;
+  width: 60%;
+  margin:auto;
+}
+
 /* Layout Styles */
 /*
   Hint: these tend to be
