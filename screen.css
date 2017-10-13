@@ -63,6 +63,25 @@ audio
      relationships
 */
 
+#navigation {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#navigation li {
+  float: left;
+  width: 33.3333333333%;
+}
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.611em;
+  padding-bottom: 0.611em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+}
 
 /* Modular Styles */
 /*
