@@ -105,3 +105,10 @@ figcaption{
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 375px) {
+  body {
+    padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
+    padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+  }
+}
