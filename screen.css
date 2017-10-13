@@ -31,12 +31,18 @@ body{
   font-size: 1.125em;
   line-height: 2em;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-weight: bold;
+}
+
+p{
+  padding-left: 0.5em;
+
 }
 
 /* Layout Styles */
