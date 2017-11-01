@@ -16,21 +16,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 html{
-  font-size: 1.125em; // 18/16 = 1.125em
-  line-height: 1.222em; //22/18 = 1.1222em
-  background-color: silver;
-}
-
-head{
-  font-size: 3.552em;
-  font-weight: bold;
-  margin-top: auto;
+  font-size: 1.125em; /*18/16 = 1.125em*/
+  line-height: 1.222em; /* 22/18 = 1.1222em*/
 }
 
 body{
-  padding-top: 15em; 
+  padding-top: 2.22em;
   padding-left: 1.22em;
   padding-right: 1.22em;
+  background-color: gray;
 }
 
 h1,
@@ -41,10 +35,12 @@ h5,
 h6,
  {
   font-weight: bold;
+  padding-left: 2.22em;
+  padding-bottom: 1.5em;
 }
 
 p{
-  padding-left: 0.5em;
+  padding-left: 1.22em;
 
 }
 
@@ -82,8 +78,8 @@ audio
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
-  color: black;
-  background-color: orange;
+  color: orange;
+  background-color: cyan;
 }
 
 figcaption{
