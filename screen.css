@@ -80,6 +80,7 @@ ul{
   list-style-type: square;
 }
 
+
 /*Resposive Media*/
 img,
 video,
@@ -117,6 +118,11 @@ audio
   text-decoration: none;
   color: orange;
   background-color: black;
+}
+
+#navigation a:hover{
+  color: orange;
+  background-color: silver;
 }
 
 figcaption{
