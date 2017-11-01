@@ -39,9 +39,15 @@ h6,
   padding-bottom: 1.5em;
 }
 
-p{
+
+#content p{
   padding-left: 1.22em;
 
+}
+
+ul{
+  font-style: italic;
+  list-style-type: square;
 }
 
 /*Resposive Media*/
@@ -79,7 +85,7 @@ audio
   text-align: center;
   text-decoration: none;
   color: orange;
-  background-color: cyan;
+  background-color: black;
 }
 
 figcaption{
