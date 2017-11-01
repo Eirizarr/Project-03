@@ -16,8 +16,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 html{
-  font-size: 1.125em;
-  line-height: 2em;
+  font-size: 1.125em; // 18/16 = 1.125em
+  line-height: 1.222em; //22/18 = 1.1222em
   background-color: silver;
 }
 
@@ -36,7 +36,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6,
+ {
   font-weight: bold;
 }
 
