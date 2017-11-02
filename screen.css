@@ -72,6 +72,9 @@ h5{
 
 #content p{
   padding-left: 1.22em;
+  padding-bottom: .4em;
+  font-size: 1.2em;
+
 
 }
 
@@ -148,14 +151,14 @@ figcaption{
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 600px) {
   body {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
   }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 900px) {
   html {
     font-size: 1.25em; /* 20 / 16 = 1.25em */
   }
