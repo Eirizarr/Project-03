@@ -16,8 +16,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 html{
-  font-size: 1.5em; /*18/16 = 1.125em*/
-  line-height: 1.222em; /* 22/18 = 1.1222em*/
+  font-size: 1.5em;
+  line-height: 1.222em;
 }
 
 body{
@@ -163,7 +163,7 @@ figcaption{
 /*@media screen and (min-width: 600px) {
   body {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
-  /*  padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
+/*    padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
 /*  }
 }
 
