@@ -24,7 +24,8 @@ body{
   padding-top: 2.22em;
   padding-left: 1.22em;
   padding-right: 1.22em;
-  background-color: gray;
+  background-color: green;
+  color: gold;
 }
 
 h1,
@@ -45,7 +46,7 @@ h1
   padding-top: 0.666em;
   padding-bottom: 0.25em;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 
 h2{
@@ -140,7 +141,7 @@ figcaption{
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
-#content{
+#maincontent, #interestscontent{
   float:left;
   width: 65%;
 }
