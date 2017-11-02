@@ -140,7 +140,15 @@ figcaption{
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+#content{
+  float:left;
+  width: 65%;
+}
 
+#myself {
+  float:right;
+  width: 35%;
+}
 /* State Styles */
 /*
   States of the browser and user access
