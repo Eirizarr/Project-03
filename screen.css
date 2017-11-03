@@ -167,7 +167,15 @@ html{
 
 #IIT, #intimages{
   float:left;
+  width: 25%;
+  margin-left: 5%;
 }
+
+#maincontent, #interestscontent {
+   width: 75.2857142%; /* 450 / 700 = 0.642857 */
+   float: left;
+}
+
 
 }
 @media screen and (min-width: 860px) {
@@ -175,9 +183,19 @@ html{
     font-size: 1em;
   }
 
-  #IIT, #intimages{
-    float:left;
-    width: 25%;
-    margin-left: 5%;
+  body{
+      padding-right: 9.302325581%; /* 80 / 860 = 0.0930 */
+      padding-left: 9.302325581%; /* 80 / 860 = 0.0930 */
+    }
+    #maincontent, #interestscontent {
+      width: 64.2857142%; /* 450 / 700 = 0.642857 */
+      float: left;
+    }
+    #IIT {
+      width: 28.5714285714%; /* 200 / 700 = 0.2857*/
+      margin-left: 7.142857142857%; /* 50 / 700 = 0.0714*/
+      float: zero;
+    }
+
   }
  }
