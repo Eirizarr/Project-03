@@ -162,14 +162,18 @@ figcaption{
 
 @media screen and (min-width: 300px) {
 
+  html{
+    font-size: .75em;
+
+  }
 #IIT, #intimages{
-  float:left;
-  width: 25%;
-  margin-left: 5%;
+  float: left;
+  width: 85%;
+
 }
 
 #maincontent, #interestscontent {
-   width: 75.2857142%; /* 450 / 700 = 0.642857 */
+   width: 85%;
    float: left;
 }
 
