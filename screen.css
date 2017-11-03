@@ -168,6 +168,7 @@ html{
 #IIT, #intimages{
   float:left;
 }
+
 }
 @media screen and (min-width: 860px) {
   html{
@@ -176,5 +177,7 @@ html{
 
   #IIT, #intimages{
     float:left;
+    width: 25%;
+    margin-left: 5%;
   }
  }
