@@ -160,10 +160,7 @@ figcaption{
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 375px) {
-html{
-  font-size: 1em;
-}
+@media screen and (min-width: 300px) {
 
 #IIT, #intimages{
   float:left;
@@ -180,7 +177,7 @@ html{
 }
 @media screen and (min-width: 860px) {
   html{
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   body{
