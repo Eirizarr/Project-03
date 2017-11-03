@@ -28,14 +28,14 @@ q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0
   3. basic element presenation
 */
 html{
-  font-size: 1.5em;
-  line-height: 1.222em;
+  font-size: 1.125em; /* 18/16 = 1.125*/
+  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 body{
   padding-top: 2.22em;
-  padding-left: 1.22em;
-  padding-right: 1.22em;
+  padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
+  padding-right: 1.22em;/* 22 / 18 = 1.2222222222 */
   background-color: gray;
   color: gold;
 }
@@ -48,37 +48,37 @@ h5,
 h6
  {
   font-weight: bold;
-  padding-bottom: 1.5em;
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1
 {
-  font-size: 2.2em;
-  padding-top: 0.666em;
-  padding-bottom: 0.25em;
+   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+   padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
+   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
   font-style: italic;
   text-align: left;
 }
 
 h2{
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
+ font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+ padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
+ padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 h3{
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 h4{
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 h5{
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  padding-top: 0.516em; /* 22 / 42.635 = 0.516 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 
 
@@ -191,10 +191,6 @@ figcaption{
 
 }
 @media screen and (min-width: 860px) {
-  html{
-    font-size: 1.1em;
-  }
-
 
     #maincontent, #interestscontent {
       width: 64%;
