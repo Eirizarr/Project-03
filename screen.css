@@ -159,7 +159,7 @@ figcaption{
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 18.750em) {
+@media screen and (min-width: 300px) {
 
   html{
     font-size: .75em;
@@ -178,7 +178,7 @@ figcaption{
 
 
 }
-@media screen and (min-width: 53.750em) {
+@media screen and (min-width: 860px) {
   html{
     font-size: 1.1em;
   }
