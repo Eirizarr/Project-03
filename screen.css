@@ -33,10 +33,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
  {
   font-weight: bold;
-  padding-left: 2.22em;
   padding-bottom: 1.5em;
 }
 
@@ -146,7 +145,7 @@ figcaption{
   width: 65%;
 }
 
-#IIT, #intimages{
+#iit, #iit2, #iit3, #intimages, #intimages2{
   float:right;
   width: 35%;
 }
@@ -160,15 +159,15 @@ figcaption{
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 18.750em) {
 
   html{
     font-size: .75em;
 
   }
-#IIT, #intimages{
+#iit, #iit2, #iit3, #intimages, #intimages2{
   float: left;
-  width: 60%;
+  width: 90%;
 
 }
 
@@ -179,7 +178,7 @@ figcaption{
 
 
 }
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 53.750em) {
   html{
     font-size: 1.1em;
   }
@@ -189,11 +188,9 @@ figcaption{
       width: 64%;
       float: left;
     }
-    #IIT, #interestscontent {
+    #iit, #iit2, #iit3, #intimages, #intimages2 {
       width: 28.5%;
       margin-left: 7%;
       float: left;
     }
-
   }
- }
