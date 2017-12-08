@@ -6,7 +6,7 @@ $('#form').on('submit', function(e){
     var fill = "Please fill in all the fields displayed above";
     var troll = "HAH JK, I PLAY on Steam Actually. PC for the win always!";
     e.preventDefault();
-    if (name === '' || email === '' || question === '') {
+    if (username === '' || useremail === '' || userpsn === '') {
       confirmation.textContent = fill;
       document.getElementById("confirmation").style.color = 'black';
 
