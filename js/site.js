@@ -1,6 +1,5 @@
 $.noConflict();
 
-
 $('#form').on('submit', function(e){
     var username = $('#nameinput').val();
     var useremail = $('#emailinput').val();
@@ -12,11 +11,10 @@ $('#form').on('submit', function(e){
     if (username === '' || useremail === '' || userid === '') {
       confirmation.textContent = fill;
       document.getElementById("confirmation").style.color = 'black';
-
-    } else{
+    }
+    else{
       console.log("Submission Completed", username, useremail, userid);
       confirmation.textContent = troll;
       document.getElementById("confirmation").style.color = 'skyblue';
     }
-
 });
