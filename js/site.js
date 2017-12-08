@@ -1,23 +1,19 @@
-$(document).ready(function() {
-  $('#form').on('submit',function(e) {
-    var name    = document.getElementById('nameinput')
-    var email   = document.getElementById('emailinput')
-    var message = document.getElementById('textinput')
+$('#form').on('submit', function(e){
+    var username = $('#nameinput').val();
+    var useremail = $('#emailinput').val();
+    var userquestion = $('#textinput').val();
+    var Confirmation = document.getElementById("confirmation");
+    var fill = "Please fill in all the fields displayed above";
+    var troll = "HAH JK, I PLAY on Steam Actually. PC for the win always!";
+    e.preventDefault();
+    if (name === '' || email === '' || question === '') {
+      status.textContent = fill;
+      document.getElementById("status").style.color = 'black';
 
-
-    if (!name.value || !email.value || !message.value) {
-      status.textContent =  "Please fill all the fields.";
-      return false;
-    } else {
-      $.ajax({
-        method: 'POST',
-        url: '//formspree.io/sirmayday98@gamil.com',
-        data: $('#form').serialize(),
-        datatype: 'json'
-      });
-      e.preventDefault();
-      $(this).get(0).reset();
-      status.textContent = "done";
+    } else{
+      console.log("Submission Completed", name, email, question);
+      status.textContent = troll;
+      document.getElementById("status").style.color = 'skyblue';
     }
-  });
+
 });
