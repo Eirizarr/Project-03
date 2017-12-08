@@ -4,8 +4,9 @@ $(document).ready(function() {
     var email   = document.getElementById('emailinput')
     var message = document.getElementById('textinput')
 
+
     if (!name.value || !email.value || !message.value) {
-      alertify.error("Please make sure the form is filled out.");
+      status.textContent =  "Please fill all the fields.";
       return false;
     } else {
       $.ajax({
@@ -16,7 +17,7 @@ $(document).ready(function() {
       });
       e.preventDefault();
       $(this).get(0).reset();
-      alertify.success("Email sent");
+      status.textContent = "done";
     }
   });
 });
