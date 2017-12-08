@@ -55,23 +55,31 @@
           The MTCC.
         </figcaption>
       </figure>
+      <form id="form">
       <ol>
-      <li>
-        <label for="nameinput" class="labels"> Please enter your name: </label>
-        <input type="text" name="name" id="nameinput" />
-      </li>
-      <li>
-        <label for="psninput" class="labels"> Please enter your PSN ID: </label>
-        <input type="text" name="psnname" id="PSNinput" />
-      </li>
-      <li>
-        <label for="gameinput" class="labels"> Enter the games you play!: </label>
-        <textarea name="games" id="gamesinfo"></textarea>
-      </li>
-      <li>
-           <input type="submit" name="submit" value="submit" id="submit"/>
-</li>
-    </ol>
+        <li>
+          <p>If you want to play submit your PSN ID below: </p>
+        </li>
+        <li>
+          <label for="nameinput" class="labels"> Please enter your name: </label>
+          <input type="text" name="name" id="nameinput" />
+        </li>
+        <li>
+          <label for="emailinput" class"labels"> Please enter your email: </label>
+          <input type="email" name="email" id="emailinput"/>
+        </li>
+        <li>
+          <label for="textinput" class="labels"> Please enter your PSN ID: </label>
+          <textarea name="text" id="textinput"></textarea>
+        </li>
+        <li>
+          <input type="submit" name="submit" value="submit" id="submit"/>
+        </li>
+        <li>
+          <p id="status"></p>
+        </li>
+      </ol>
+    </form>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="js/site.js"></script>
     </body>
