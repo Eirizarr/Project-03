@@ -33,6 +33,7 @@ html{
 }
 
 body{
+  flex-wrap: wrap;
   padding-top: 2.22em;
   padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
   padding-right: 1.22em;/* 22 / 18 = 1.2222222222 */
@@ -91,7 +92,6 @@ ul{
   font-style: italic;
   list-style-type: square;
 }
-
 
 /*Resposive Media*/
 img,
