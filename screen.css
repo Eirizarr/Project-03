@@ -48,6 +48,7 @@ h4,
 h5,
 h6
  {
+  font-family: sans-serif;
   font-weight: bold;
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -86,6 +87,7 @@ h5{
   padding-left: 1.22em;
   padding-bottom: .4em;
   font-size: 1.2em;
+  font-family: serif;
 }
 
 ul{
