@@ -1,3 +1,6 @@
+$.noConflict();
+
+
 $('#form').on('submit', function(e){
     var username = $('#nameinput').val();
     var useremail = $('#emailinput').val();
