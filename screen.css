@@ -154,7 +154,7 @@ figcaption{
   width: 65%;
 }
 
-#iit, #iit2, #iit3, #intimages, #intimages2{
+#iit, #iit2, #intimages, #intimages2{
   float:right;
   width: 35%;
 }
@@ -174,7 +174,7 @@ figcaption{
     font-size: 1.2em;
 
   }
-#iit, #iit2, #iit3, #intimages, #intimages2{
+#iit, #iit2, #intimages, #intimages2{
   float: left;
   width: 90%;
 
@@ -193,7 +193,7 @@ figcaption{
       width: 64%;
       float: left;
     }
-    #iit, #iit2, #iit3, #intimages, #intimages2 {
+    #iit, #iit2, #intimages, #intimages2 {
       width: 27%;
       margin-left: 7%;
       float: left;
