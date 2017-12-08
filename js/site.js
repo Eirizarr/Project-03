@@ -11,7 +11,7 @@ $('#form').on('submit', function(e){
       document.getElementById("confirmation").style.color = 'black';
 
     } else{
-      console.log("Submission Completed", name, email, question);
+      console.log("Submission Completed", username, useremail, userpsn);
       confirmation.textContent = troll;
       document.getElementById("confirmation").style.color = 'skyblue';
     }
