@@ -8,12 +8,12 @@ $('#form').on('submit', function(e){
     e.preventDefault();
     if (name === '' || email === '' || question === '') {
       status.textContent = fill;
-      document.getElementById("status").style.color = 'black';
+      document.getElementById("confirmation").style.color = 'black';
 
     } else{
       console.log("Submission Completed", name, email, question);
       status.textContent = troll;
-      document.getElementById("status").style.color = 'skyblue';
+      document.getElementById("confirmation").style.color = 'skyblue';
     }
 
 });
